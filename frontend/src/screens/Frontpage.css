@@ -1,0 +1,59 @@
+.main{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../bg7.jpg");
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    text-align: center;
+}
+.intro-text h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+
+}
+.intro-text p{
+    font-size: 25px;
+}
+.buttonContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    padding: 0 200px;
+}
+.buttonContainer Button{
+    width: 200px;
+    height: 55px;
+    margin: 0 20px;
+}
+@media only screen and (max-width:1400px){
+    .intro-text h1{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    .intro-text p{
+        font-size: 15px;
+    }
+    .buttonContainer Button{
+        width: 150px;
+        height: 45px;
+    }
+}
+@media only screen and (max-width:400px){
+    .intro-text h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .intro-text p{
+        font-size: 10px;
+    }
+    .buttonContainer Button{
+        size: sm;
+    }
+}
